@@ -10,5 +10,10 @@ public class EmployeeController {
 	public String getBadData() {
 		return "don't code like this!";
 	}
+	
+	@GetMapping("/team")
+	public String teamName() {
+		return "alpha";
+	}
 
 }
